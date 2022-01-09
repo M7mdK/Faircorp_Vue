@@ -1,7 +1,7 @@
 <template>
   <center><div id="app">
     <header>
-      <center><div class="title display-6 m-4">{{title}}</div></center>
+      <center><div class="title display-6 m-4" style="color:white">{{title}}</div></center>
     </header>
 
     <section class="main-content w-50 mx-auto">
@@ -24,28 +24,30 @@
 
 <script>
 
-import WindowsList from './components/WindowsList.vue';
-import RoomsList from './components/RoomsList.vue';
 import BuildingsList from './components/BuildingsList.vue';
+import RoomsList from './components/RoomsList.vue';
+import WindowsList from './components/WindowsList.vue';
+import HeatersList from './components/HeatersList.vue';
+import CreateWindowList from './components/CreateWindowList.vue'
+import CreateHeaterList from './components/CreateHeaterList.vue'
 import ContactList from './components/ContactList.vue';
-import CreateList from './components/CreateList.vue'
-import HeatersList from './components/HeatersList';
 
 export default {
   name: 'App',
   components: {
-    WindowsList,
-    RoomsList,
     BuildingsList,
-    ContactList,
-    CreateList,
-    HeatersList
+    RoomsList,
+    WindowsList,
+    HeatersList,
+    CreateWindowList,
+    CreateHeaterList,
+    ContactList
   },
   data() {
     return {
       title: 'Faircorp',
       currentTab: "Buildings",
-      tabs: ["Buildings", "Rooms", "Windows", "Heaters", "Contact", "Create"]
+      tabs: ["Buildings", "Rooms", "Windows", "Heaters", "CreateWindow", "CreateHeater", "Contact"]
     }
   },
   computed: {

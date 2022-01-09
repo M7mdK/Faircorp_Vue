@@ -28,7 +28,7 @@ import axios from 'axios';
 import { API_HOST } from '../config';
 
 export default {
-    name: 'CreateList',
+    name: 'CreateWindowList',
     data(){
         return {
             rooms: [],
@@ -65,7 +65,6 @@ export default {
 .addWindow.btn, .addWindow.btn:active{
     color: #ffffff;
     background-color: #0000ff;
-    border-color: #0000ff;
 }
 .create {
     .top-row {

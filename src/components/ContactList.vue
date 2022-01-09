@@ -1,8 +1,10 @@
 <template>
     <div>
         <ul>
-        <li><a href="https://github.com/M7mdK" target="_blank">My Github Profile</a></li>
-        <li><a href="https://www.instagram.com/m7md.kassem" target="_blank">My Instagram Profile</a></li>
+        <li><a href="https://github.com/M7mdK" target="_blank">Github</a></li>
+        <li><a href="https://www.linkedin.com/in/mohamad-kassem-6950231b1" target="_blank"> LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/m7md.kassem" target="_blank">Instagram</a></li>
+        <li><a href = "mailto: mohamad.kassem@etu.univ-st-etienne.fr">Send Email</a></li>
         </ul>
     </div>
 </template>
@@ -27,7 +29,7 @@ li{
 }
 a{
     text-decoration: none;
-    color: #00ff00;
+    color:blue;
 }
 </style>
 

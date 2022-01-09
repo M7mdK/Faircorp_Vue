@@ -1,1 +1,1 @@
-export const API_HOST = 'http://localhost:8080';
+export const API_HOST = 'http://app-af3be42b-9413-4b80-9e48-c8053e544af2.cleverapps.io';

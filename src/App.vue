@@ -45,7 +45,7 @@ export default {
     return {
       title: 'Faircorp',
       currentTab: "Buildings",
-      tabs: ["Buildings", "Rooms", "Windows", "Heaters", "Create", "Contact"]
+      tabs: ["Buildings", "Rooms", "Windows", "Heaters", "Contact", "Create"]
     }
   },
   computed: {
@@ -57,5 +57,5 @@ export default {
 </script>
 
 <style>
-  @import './assets/style2.css';
+  @import './assets/style.css';
 </style>

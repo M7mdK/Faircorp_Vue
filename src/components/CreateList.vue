@@ -55,6 +55,7 @@ export default {
 }
 </script>
 
+
 <style lang="scss" scoped>
 .create{
     .top-row {
@@ -63,8 +64,8 @@ export default {
 }
 .addWindow.btn, .addWindow.btn:active{
     color: #ffffff;
-    background-color: #00ff00;
-    border-color: #00ff00;
+    background-color: #0000ff;
+    border-color: #0000ff;
 }
 .create {
     .top-row {
@@ -72,3 +73,6 @@ export default {
     }
 }
 </style>
+
+
+

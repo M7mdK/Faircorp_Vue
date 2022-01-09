@@ -85,6 +85,8 @@ export default {
 .details>.p-2{
     background-color: #ff0000;
     color: #ffffff;
-    border-radius: 0.25em;
+    border-radius: 0.15em;
 }
 </style>
+
+

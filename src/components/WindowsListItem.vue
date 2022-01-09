@@ -19,8 +19,8 @@
     <template v-if="isExpanded">
       <hr/>
       <div class="details d-flex">
-        <button type="button" class="btn p-2 btn-secondary me-2" v-on:click="switchWindow">{{ isWindowOpen ? 'Close' : 'Open' }} window</button>
-        <button type="button" class="btn p-2 btn-danger me-2" v-on:click="deleteWindow">Delete window</button>
+        <button type="button" class="btn p-2 btn-secondary me-2" v-on:click="switchWindow">{{ isWindowOpen ? 'Close' : 'Open' }} This Window</button>
+        <button type="button" class="btn p-2 btn-danger me-2" v-on:click="deleteWindow">Delete This Window</button>
       </div>
     </template>
   </div>
@@ -59,6 +59,8 @@ export default {
   }
 }
 </script>
+
+
 
 <style lang="scss" scoped>
 .open-status {

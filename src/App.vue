@@ -32,7 +32,6 @@ import ContactList from './components/ContactList.vue';
 import CreatewindowList from './components/CreatewindowList.vue';
 import CreateheaterList from './components/CreateheaterList.vue';
 
-
 export default {
   name: 'App',
   components: {

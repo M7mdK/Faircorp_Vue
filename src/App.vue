@@ -28,9 +28,10 @@ import BuildingsList from './components/BuildingsList.vue';
 import RoomsList from './components/RoomsList.vue';
 import WindowsList from './components/WindowsList.vue';
 import HeatersList from './components/HeatersList.vue';
-import CreateList from './components/CreateList.vue'
-import CreateHeaterList from './components/CreateHeaterList.vue'
 import ContactList from './components/ContactList.vue';
+import CreatewindowList from './components/CreatewindowList.vue';
+import CreateheaterList from './components/CreateheaterList.vue';
+
 
 export default {
   name: 'App',
@@ -39,15 +40,15 @@ export default {
     RoomsList,
     WindowsList,
     HeatersList,
-    CreateList,
-    CreateHeaterList,
+    CreatewindowList,
+    CreateheaterList,
     ContactList
   },
   data() {
     return {
       title: 'Faircorp',
       currentTab: "Buildings",
-      tabs: ["Buildings", "Rooms", "Windows", "Heaters", "Contact", "Create", "CreateHeater"]
+      tabs: ["Buildings", "Rooms", "Windows", "Heaters", "Contact", "Createwindow", "Createheater"]
     }
   },
   computed: {

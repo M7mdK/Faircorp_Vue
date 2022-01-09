@@ -28,7 +28,7 @@ import axios from 'axios';
 import { API_HOST } from '../config';
 
 export default {
-    name: 'CreateList',
+    name: 'CreatewindowList',
     data(){
         return {
             rooms: [],
